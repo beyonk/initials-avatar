@@ -14,7 +14,19 @@
   },
   "devDependencies": {
     "@hapi/code": "^7.0.0",
-    "mocha": "^6.2.2"
+    "mocha": "^6.2.2",
+    "pkg-pr-new": "^0.0.88"
   },
-  "packageManager": "pnpm@8.15.8"
+  "packageManager": "pnpm@12.9.1",
+  "repository": "https://github.com/beyonk/initials-avatar.git",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "24",
+      "onFail": "download"
+    }
+  },
+  "engines": {
+    "node": "24"
+  }
 }
